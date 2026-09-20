@@ -1,0 +1,1 @@
+body{margin:0;background:#111;color:#f4e4b0;font-family:Georgia,serif} .panel{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}.hero{background:#1a1a1a}.shelves{background:#2a1d10}.card{padding:2rem;border:1px solid #c8a85d}.books{display:flex;gap:20px}.book{background:#5b2d15;color:#f4e4b0;text-decoration:none;padding:120px 25px}

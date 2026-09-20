@@ -1,0 +1,1 @@
+window.addEventListener('scroll',()=>{document.querySelectorAll('.panel').forEach(p=>{p.style.transform=`translateY(${p.getBoundingClientRect().top*0.05}px)`})})
