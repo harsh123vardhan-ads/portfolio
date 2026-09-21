@@ -1,1 +1,5 @@
-window.addEventListener('scroll',()=>{document.querySelectorAll('.panel').forEach(p=>{p.style.transform=`translateY(${p.getBoundingClientRect().top*0.05}px)`})})
+
+const io=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show');});
+},{threshold:.2});
+document.querySelectorAll('.panel').forEach(p=>io.observe(p));
